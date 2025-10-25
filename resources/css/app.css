@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+    .nav-link a, x-nav-link a, a.nav-link, .dropdown-item {
+        @apply no-underline !important;
+        text-decoration: none !important;
+    }
+}
